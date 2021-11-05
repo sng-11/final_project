@@ -1,7 +1,7 @@
 # insert creative final_project title
-(": An Investigation of Trends in Streaming Service Users)
+Selected Topic: An Investigation of Trends in Streaming Service Users
 
-## Abstract
+## Rationale of 
 With the global boom in popularity of streaming services such as Netflix and Disney+, rich consumer data can now be mined from these digital platforms to inform companies of what entertainment trends are on the rise. For the smaller company, Iflix, we are interested in dissecting its data to investigate what kind of user prefers what form of entertainment, to allow for a more tailored user experience. As such, we will take the gathered consumer data and use machine learning methods to build a model that can accurately predict preferences based on factors such as income, gender, and country code, just to name a few.
 
 ## Team Description
@@ -27,6 +27,11 @@ The dataset contains the following sheets:
 3. __plays.csv__: describes the total number of minutes viewed for a particular content title.
 4. __psychographics.csv__: describes whether user identifies as "Movie Lover" or "TV Lover", and further into subgroups such as "English Movies Fans" and "Korean TV Fans".
 5. __users.csv__: describes what country code the user is from.
+
+Samples Excel sheets (csv) of the data are present in the respository. 
+
+## Research Questions:
+1. 
 
 ## Data Cleaning (Sharon)
 We intend on using Pandas and Jupyter Notebook to clean our dataset prior to use. Notably, we plan to:
