@@ -39,7 +39,8 @@ We intend on using Pandas and Jupyter Notebook to clean our dataset prior to use
 - 
 
 ## Database (Melissa)
-Database Used: Postgres SQL
+Tables and database will be created in Postgres SQL.
+Our ERD shows the flow of information from one table to another, as captured in the image below. Psychographics table will join Users, Plays and Demographics on user_id. Plays will connect to Assets on asset_id. 
 
 ![Database_Schema](Database_Schema.png)
 
@@ -50,5 +51,4 @@ Platform Used: Google Colab (which will be linked to Postgres). Our plan is to a
 
 _Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium- and low-income earners. 
 
-## Data Visualization: Using Tableau (Victoria)
 
