@@ -41,6 +41,8 @@ We intend on using Pandas and Jupyter Notebook to clean our dataset prior to use
 ## Database (Melissa)
 Database Used: Postgres SQL
 
+![Database_Schema](Database_Schema.png)
+
 ## Machine Learning Model (Sereymony)
 Proposed Method: Supervised learning, multiple-variable linear regression model
 Our Accuracy Confidence Range Goal: 80-90%
