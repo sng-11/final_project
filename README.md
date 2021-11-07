@@ -1,8 +1,8 @@
-# insert creative final_project title
-Selected Topic: An Investigation of Trends in Streaming Service Users
+# Iflix Data Analysis Project
+Selected Topic: An Investigation of Trends in Streaming Service (Iflix) Users
 
-## Rationale of 
-With the global boom in popularity of streaming services such as Netflix and Disney+, rich consumer data can now be mined from these digital platforms to inform companies of what entertainment trends are on the rise. For the smaller company, Iflix, we are interested in dissecting its data to investigate what kind of user prefers what form of entertainment, to allow for a more tailored user experience. As such, we will take the gathered consumer data and use machine learning methods to build a model that can accurately predict preferences based on factors such as income, gender, and country code, just to name a few.
+## Why are we interested in this topic? Why is this relevant?
+With the global boom in popularity of streaming services such as Netflix and Disney+, rich consumer data can now be mined from these digital platforms to inform companies of what entertainment trends are on the rise. For the smaller company, Iflix, we are interested in dissecting its data to investigate what kind of user prefers what form of entertainment, to allow for a more tailored user experience. As such, we will take the gathered consumer data and use machine learning methods to build a model that can accurately predict preferences based on factors such as income, gender, and country code, just to name a few. Ultimately, results of this project can allow us to advise Iflix how to do targeted marketing to a specific audience.
 
 ## Team Description
 Sharon Ng (__Square__: Repository Maintenance; Pandas Data Cleaning) <br />
@@ -36,7 +36,7 @@ Samples Excel sheets (csv) of the data are present in the respository.
 ## Data Cleaning (Sharon)
 We intend on using Pandas and Jupyter Notebook to clean our dataset prior to use. Notably, we plan to:
 - Eliminate duplicate demographic data within each user_id.
-- 
+- Have demographic data for the same user_id to be in the same row.
 
 ## Database (Melissa)
 Tables and database will be created in Postgres SQL.
@@ -45,9 +45,9 @@ Our ERD shows the flow of information from one table to another, as captured in 
 ![Database_Schema](Database_Schema.png)
 
 ## Machine Learning Model (Sereymony)
-Proposed Method: Supervised learning, multiple-variable linear regression model
-Our Accuracy Confidence Range Goal: 80-90%
-Platform Used: Google Colab (which will be linked to Postgres). Our plan is to also 
+Proposed Method: Supervised learning, multiple-variable linear regression model <br />
+Our Accuracy Confidence Range Goal: 80-90% <br />
+Platform Used: Google Colab (which will be linked to Postgres). 
 
 _Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium- and low-income earners. 
 
