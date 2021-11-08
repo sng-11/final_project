@@ -47,7 +47,7 @@ Proposed Method: Supervised learning, multiple-variable linear regression model 
 Our Accuracy Confidence Range Goal: 80-90% <br />
 Platform Used: Google Colab (which will be linked to Postgres). 
 
-_Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium- and low-income earners. 
+_Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium-income and low-income earners. 
 
 _Research Question_: How long will a user spend watching Iflix given their income demographic (low, middle, or high)?
 
