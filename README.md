@@ -30,8 +30,6 @@ The dataset contains the following sheets:
 
 Samples Excel sheets (csv) of the data are present in the respository. 
 
-## Research Questions:
-1. 
 
 ## Data Cleaning (Sharon)
 We intend on using Pandas and Jupyter Notebook to clean our dataset prior to use. Notably, we plan to:
@@ -50,5 +48,7 @@ Our Accuracy Confidence Range Goal: 80-90% <br />
 Platform Used: Google Colab (which will be linked to Postgres). 
 
 _Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium- and low-income earners. 
+
+_Research Question_: How long will a user spend watching Iflix given their income demographic (low, middle, or high)?
 
 
