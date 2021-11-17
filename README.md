@@ -43,9 +43,22 @@ Our ERD shows the flow of information from one table to another, as captured in 
 ![Database_Schema](Database_Schema.png)
 
 ## Machine Learning Model (Sereymony)
-Proposed Method: Supervised learning, multiple-variable linear regression model <br />
+Proposed Method: Supervised learning, multiple-variable linear regression model (will be using random forest as well to see which model predicts better) <br />
 Our Accuracy Confidence Range Goal: 80-90% <br />
 Platform Used: Google Colab (which will be linked to Postgres). 
+
+Dependencies: The dependencies used within code will be: pandas, numpy, matplotlib.pyplot, sklearn (linear_model), sklearn.preprocessing (LabelEncoder), sqlalchemy 
+
+Explanation for dependencies: 
+
+- pandas: used to create & view dataframes within code
+- numpy: used to calculate numerical values of outputs
+- matplotlib: used for heatmaps & plotting
+- sklearn: used for preprocessing the data as well as for linear regression code
+- sqlachemy: used for database stored in PostgresSQL 
+
+X variables: gender, income level, age, country code, platform
+Y variable: minutes_viewed 
 
 _Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium-income and low-income earners. 
 
