@@ -68,7 +68,9 @@ _Secondary Question_: How can we use the answer to the above question to tailor 
 ## Dashboard
 ### Description of Tool That Will Be Used:
 - Tableau Public will be used to create the final dashboard 
-- Users who have access to the link will be able to view and interact with the dashboard
+- Users who have access to the link will be able to view and interact within the dashboard
 ### Description of Interactive Element:
 - Dashboard users will be able to filter data by various demographics and characteristics (i.e. Income Level)
 
+## Presentation
+Link to Google Slides: https://docs.google.com/presentation/d/18-z4R8C5ikNKaz8lDjH3rCXX4vy3wfczbbSX1y9qB3A/edit?usp=sharing
