@@ -64,3 +64,11 @@ _Hypothesis_: Our hypothesis is that high-income earners will have less leisure 
 
 _Research Question_: How long will a user spend watching Iflix given their income demographic (low, middle, or high)? 
 _Secondary Question_: How can we use the answer to the above question to tailor our marketing to Iflix users based on their income level? And other demographics?
+
+## Dashboard
+### Description of Tool That Will Be Used:
+- Tableau Public will be used to create the final dashboard 
+- Users who have access to the link will be able to view and interact with the dashboard
+### Description of Interactive Element:
+- Dashboard users will be able to filter data by various demographics and characteristics (i.e. Income Level)
+
