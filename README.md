@@ -32,9 +32,11 @@ Samples Excel sheets (csv) of the data are present in the respository.
 
 
 ## Data Cleaning (Sharon)
-We intend on using Pandas and Jupyter Notebook to clean our dataset prior to use. Notably, we plan to:
-- Eliminate duplicate demographic data within each user_id.
-- Have demographic data for the same user_id to be in the same row.
+We used Pandas and Jupyter Notebook to clean our dataset prior to running the data through the machine learning model. Notably, we:
+- Eliminated duplicate demographic data within each user_id.
+- Have demographic data for the same user_id to be in the same row by merging individual dataframes regarding gender and income etc.
+- Cleaned up psychographic data to ensure that each user_id have some characteristic describing them such as "Movie Lover" or "addict" in iflix viewing behaviour.
+- Rows with no values are removed to ensure we are feeding clean and straightforward data into the machine learning model.
 
 ## Database (Melissa)
 Tables and database will be created in Postgres SQL.
