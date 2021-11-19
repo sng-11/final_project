@@ -66,8 +66,9 @@ ml_model2.age,
 ml_model2.minutes_viewed,
 ml_model2.country_code,
 characteristics.platform,
-characteristics.characteristics
+characteristics.characteristics,
 ml_model2.ml_output
+INTO inner_join_results
 FROM ml_model2
 INNER JOIN characteristics
 ON ml_model2.user_id = characteristics.user_id;
