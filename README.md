@@ -32,11 +32,9 @@ Samples Excel sheets (csv) of the data are present in the respository.
 
 
 ## Data Cleaning (Sharon)
-We used Pandas and Jupyter Notebook to clean our dataset prior to running the data through the machine learning model. Notably, we:
-- Eliminated duplicate demographic data within each user_id.
-- Have demographic data for the same user_id to be in the same row by merging individual dataframes regarding gender and income etc.
-- Cleaned up psychographic data to ensure that each user_id have some characteristic describing them such as "Movie Lover" or "addict" in iflix viewing behaviour.
-- Rows with no values are removed to ensure we are feeding clean and straightforward data into the machine learning model.
+We intend on using Pandas and Jupyter Notebook to clean our dataset prior to use. Notably, we plan to:
+- Eliminate duplicate demographic data within each user_id.
+- Have demographic data for the same user_id to be in the same row.
 
 ## Database (Melissa)
 Tables and database will be created in Postgres SQL.
@@ -61,6 +59,18 @@ Explanation for dependencies:
 
 X variables: gender, income level, age, country code, platform
 Y variable: minutes_viewed 
+
+Description of preliminary data preprocessing: Original data was gathered from Kaggle as multiple CSV files. Files were then cleaned using pyhton on jupyter notebook. After data was cleaned, data was taken to PostgresSQL to join tables into a single dataframe. 
+
+Description of preliminary feature engineering and preliminary feature selection, including the decision-making process: The decision making process pertaining to the preliminary feature engineering was to figure out which variables held enough significance for the machine learning model to predict the total minutes viewed for each individual. Originally, the dataframe had limited variables integrated, however, after analysis of the code - we learned that additional columns/variables were to be added. The final decision for variables to be integrated into the dataframe is as follows: "gender, income_level, age, minutes_viewed, country_code, platform, characteristics".
+
+All of the variables listed above were joined into a single dataframe that was used for the machine learning code. Applications used for doing so were PostgresSQL from AWS to build the database as well as join the code. 
+
+Description of how data was split into training and testing sets: training data was split by dropping the "minutes_viewed" column as well as the "user_id" column to properly test the data. We did this to ensure that the values listed in the "user_id" & "minutes_viewed" columns were not integrated into the model and scaled with the rest of the variables. 
+
+Explanation of model choice, including limitations and benefits: The model we decided to use was linear regression. We tried out 2 different models being linear regression as well as random forrest. What we found from the ML outputs vs. the actual is that the linear regression model better predicts the minutes viewed output vs. the random forrest model. This can be found in the google collab file committed to the main branch.
+
+The limitations that we came across when running the data through the model was that with fewer variables, the correlation was at a negative number. In order to combat this issue, we added more variables into play in order to increase the correlation of the variables of the model. When more variables were integrated, we found that the output is much closer to the actual. There are outliers in the original data, thus when viewing the graph, you will see the outliers placed further from the regression line. 
 
 _Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium-income and low-income earners. 
 
