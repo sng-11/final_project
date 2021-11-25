@@ -72,10 +72,12 @@ Explanation of model choice, including limitations and benefits: The model we de
 
 The limitations that we came across when running the data through the model was that with fewer variables, the correlation was at a negative number. In order to combat this issue, we added more variables into play in order to increase the correlation of the variables of the model. When more variables were integrated, we found that the output is much closer to the actual. There are outliers in the original data, thus when viewing the graph, you will see the outliers placed further from the regression line. 
 
-_Hypothesis_: Our hypothesis is that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium-income and low-income earners. 
+### Our Analysis of Machine Learning Results
+Our original hypothesis was that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium-income and low-income earners. 
 
-_Research Question_: How long will a user spend watching Iflix given their income demographic (low, middle, or high)? 
-_Secondary Question_: How can we use the answer to the above question to tailor our marketing to Iflix users based on their income level? And other demographics?
+_Research Questions_: How long will a user spend watching Iflix given their income demographic (low, middle, or high)? How can we use the answer to the above question to tailor our marketing to Iflix users based on their income level? And other demographics?
+
+Given our results...
 
 ## Dashboard
 ### Description of Tool That Will Be Used:
