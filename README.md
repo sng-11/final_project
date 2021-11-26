@@ -86,5 +86,7 @@ Given our results...
 ### Description of Interactive Element:
 - Dashboard users will be able to filter data by various demographics and characteristics (i.e. Income Level)
 
+Link to Dashboard: https://public.tableau.com/app/profile/victoria.drozdowsky/viz/AnalysisofIflixStreamingTrends/Countries?publish=yes
+
 ## Presentation
 Link to Google Slides: https://docs.google.com/presentation/d/18-z4R8C5ikNKaz8lDjH3rCXX4vy3wfczbbSX1y9qB3A/edit?usp=sharing
