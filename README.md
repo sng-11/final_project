@@ -85,6 +85,7 @@ Given our results...
 - Users who have access to the link will be able to view and interact within the dashboard
 ### Description of Interactive Element:
 - Dashboard users will be able to filter data by various demographics and characteristics (i.e. Income Level)
+- The dashboard will visualize the Iflix data and our findings throughout our analysis
 
 Link to Dashboard: https://public.tableau.com/app/profile/victoria.drozdowsky/viz/AnalysisofIflixStreamingTrends/Countries?publish=yes
 
