@@ -72,6 +72,12 @@ Explanation of model choice, including limitations and benefits: The model we de
 
 The limitations that we came across when running the data through the model was that with fewer variables, the correlation was at a negative number. In order to combat this issue, we added more variables into play in order to increase the correlation of the variables of the model. When more variables were integrated, we found that the output is much closer to the actual. There are outliers in the original data, thus when viewing the graph, you will see the outliers placed further from the regression line. 
 
+# Update on Machine Learning Code
+ 
+Accuracy score: When running the code - we found it to be only about 5% accurate. When examining the variables - we noticed major outliers with some of the folks specifically utilizing androids & iOS for their streaming. We decided to keep these folks inside the machine learning model in order to have a more accurate outcome of the code. This of course is a major limitation of the code - but may be very important for a potential client to know & study why these folks watch so much tv/movies. 
+
+For future models: We think it would be very beneficial moving forward with future models to study and analyze the outliers & come to a finding what their major influecnes are when selecting a tv show and/or movie. This would be important information for marketers as it can help predetermine what types of tv shows/movies people would prefer over others. 
+
 ### Our Analysis of Machine Learning Results
 Our original hypothesis was that high-income earners will have less leisure time to spend on watching tv/movies. Therefore, their total running times will be lower than those of medium-income and low-income earners. 
 
