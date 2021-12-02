@@ -83,7 +83,7 @@ Our original hypothesis was that high-income earners will have less leisure time
 
 _Research Questions_: How long will a user spend watching Iflix given their income demographic (low, middle, or high)? How can we use the answer to the above question to tailor our marketing to Iflix users based on their income level? And other demographics?
 
-Given our results...
+Given our results __we conclude that the age group that uses Iflix the most will be low-income young adults from ages 18 to 34. Therefore, we can inform Iflix that this demographic should take up the majority of their marketing and recruiting efforts._
 
 ## Dashboard
 ### Description of Tool That Will Be Used:
